@@ -20,7 +20,9 @@ public class StockList {
     public StockList() {
         this.list = new LinkedHashMap<>();
     }
-
+  public void my(){
+	  
+  }
     public int addStock(StockItem item) {
         if(item != null) {
             // check if already have quantities of this item
